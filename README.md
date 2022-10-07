@@ -2,6 +2,8 @@
 
 ## Description 
 
+https://dpackaz.github.io/work-day-scheduler/
+
 This is a scheduling tool, meant to show the user where they are at currently in their schedule, what has already happened today, and what they still have scheduled beffore the end of the work day.
 
 While I was building this project I realized that my code is starting to look much cleaner than it has before, and I am very proud of that. The use of local storage along with 3rd party API's in this app has been fun to play around with, and I look forward to doing more projects like this in the future.
