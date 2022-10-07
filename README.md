@@ -1,89 +1,42 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
-## Your Task
+## Description 
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+This is a scheduling tool, meant to show the user where they are at currently in their schedule, what has already happened today, and what they still have scheduled beffore the end of the work day.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
-
-## User Story
-
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
-
-## Acceptance Criteria
-
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-
-The following animation demonstrates the application functionality:
-
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-challenge-demo.gif)
+While I was building this project I realized that my code is starting to look much cleaner than it has before, and I am very proud of that. The use of local storage along with 3rd party API's in this app has been fun to play around with, and I look forward to doing more projects like this in the future.
 
 
-## Grading Requirements
+## Technologies Used
 
-This challenge is graded based on the following criteria: 
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* JQuery
+* Moment.js
 
-### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the above acceptance criteria plus the following:
+## Installation
 
-  * Uses a date utility library to work with date and time
+N/A
 
-### Deployment: 32%
 
-* Application deployed at live URL
+## Usage 
 
-* Application loads with no errors
+When a user opens the link to this app, they are presented with today's date and time, and their schedule for the day. They are able to enter in tasks for each hour of the work day and then save that information to local storage.
 
-* Application GitHub URL submitted
+When a new day begins, the user's data inputs will be erased on the app so that the user will be able to update the schedule with the new day's tasks.
 
-* GitHub repo contains application code
+The coloration of the schedule shows what is yet to be done during the day. Rows in white have already passed, the row for the current hour is shown in red, and the rows for furure hours are shown in green -- as shown here:
 
-### Application Quality: 15%
+![schedule screenshot](assets/screenshot.png)
 
-* Application user experience is intuitive and easy to navigate
 
-* Application user interface style is clean and polished
+## Credits
 
-* Application resembles the mock-up functionality provided in the challenge instructions
+N/A
 
-### Repository Quality: 13%
+## License
 
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+N/A
